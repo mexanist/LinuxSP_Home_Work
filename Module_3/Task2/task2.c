@@ -5,9 +5,6 @@
 #include <unistd.h>
 #include <string.h>
 
-static int count = 0;
-const int max_run = 5;
-
 int main(int argc, char *argv[]){
 	printf("Pid is %d\n", getpid());
 	sleep(1);
